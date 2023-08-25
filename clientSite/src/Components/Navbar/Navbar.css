@@ -1,0 +1,45 @@
+#explore{
+    height: 30px;
+    border: none;
+    background: #1b2730;
+    border-radius: 1rem;
+    padding-left: 15px;
+    line-height: 10px;
+    color: #fff;
+}
+
+.left,.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: .5rem 1rem .5rem 1rem;
+    gap: 1rem;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.user{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    background: #1b2730;
+    border-radius: 1.5rem;
+    padding: 0 1rem 0 1rem;
+}
+
+.user > p{
+    color: #fff;
+    font-weight: 600;
+}
+.left,.right img{
+    cursor: pointer;
+}
